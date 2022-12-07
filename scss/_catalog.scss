@@ -1,0 +1,66 @@
+.main {}
+
+.catalog {}
+
+.catalog__container {}
+
+.catalog__block-content {}
+
+.content-block-catalog {}
+
+.content-block-catalog__block-menu {
+  margin: 20px 0px;
+}
+
+.content-block-catalog__body {}
+
+.content-block-catalog__list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  list-style: none;
+}
+
+.content-block-catalog__item {}
+
+.content-block-catalog__link {
+  font-size: 36px;
+  font-weight: 700;
+  color: black;
+}
+
+.content-block-catalog__link_red {
+  color: red;
+}
+
+.content-block-catalog__kitchens-block {
+  margin-bottom: 30px;
+}
+
+.content-block-catalog__kitchen {
+  width: 150px;
+  height: 140px;
+  border: 3px solid black;
+  border-radius: 10%;
+
+  &:hover {
+    width: 550px;
+    height: 440px;
+  }
+}
+
+.content-block-catalog__cupboards-block {
+  margin-bottom: 30px;
+}
+
+.content-block-catalog__cupboard {
+  width: 150px;
+  height: 140px;
+  border: 3px solid red;
+  border-radius: 10%;
+
+  &:hover {
+    width: 550px;
+    height: 440px;
+  }
+}
